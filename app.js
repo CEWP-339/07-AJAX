@@ -14,6 +14,10 @@ function trackUserHandler() {
     }
   );
 
+  setTimeout(() => {
+    console.log("Timer Done!");
+  }, 0);
+
   console.log("Getting Position Data....");
 
 }
